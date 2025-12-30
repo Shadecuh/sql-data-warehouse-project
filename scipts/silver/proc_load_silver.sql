@@ -131,21 +131,26 @@ BEGIN
 	sls_ord_num,
 	sls_prd_key,
 	sls_cust_id,
-	CASE WHEN sls_order_dt <= 0 or LEN (sls_order_dt) != 8 THEN NULL
+	CASE 
+		WHEN sls_order_dt <= 0 or LEN (sls_order_dt) != 8 THEN NULL
 		 Else cast(CAST(sls_order_dt as varchar) as date)
 	end as sls_order_dt,
-	CASE WHEN sls_ship_dt <= 0 or LEN (sls_ship_dt) != 8 THEN NULL
+	CASE 
+		WHEN sls_ship_dt <= 0 or LEN (sls_ship_dt) != 8 THEN NULL
 		 Else cast(CAST(sls_ship_dt as varchar) as date)
 	end as sls_ship_dt,
-	CASE WHEN sls_due_dt <= 0 or LEN (sls_due_dt) != 8 THEN NULL
+	CASE
+		WHEN sls_due_dt <= 0 or LEN (sls_due_dt) != 8 THEN NULL
 		 Else cast(CAST(sls_due_dt as varchar) as date)
 	end as sls_due_dt,
-	CASE WHEN sls_sales IS NULL OR sls_sales <=0 or sls_sales != sls_quantity * abs(sls_price)
+	CASE 
+		WHEN sls_sales IS NULL OR sls_sales <=0 or sls_sales != sls_quantity * abs(sls_price)
 			THEN sls_quantity * ABS(sls_price)
 			Else sls_sales
 	end as sls_sales,
 	sls_quantity,
-	CASE WHEN sls_price is null or sls_price <= 0
+	CASE 
+		WHEN sls_price is null or sls_price <= 0
 			THEN sls_sales/ Nullif(sls_quantity,0)
 		Else sls_price
 	End as sls_price
@@ -165,13 +170,16 @@ BEGIN
     gen
     )
 	select 
-	case WHEN cid like 'NAS%' THEN SUBSTRING(cid, 4, len(cid))
+	case
+		WHEN cid like 'NAS%' THEN SUBSTRING(cid, 4, len(cid))
 		Else cid
 	end cid,
-	CASE WHEN bdare > GETDATE() THEN NULL	
+	CASE 
+		WHEN bdare > GETDATE() THEN NULL	
 		 Else bdare
 	end as bdare,
-	CASE WHEN UPPER(TRIM(gen)) IN ('F', 'FEMALE') THEN 'Female'
+	CASE 
+		WHEN UPPER(TRIM(gen)) IN ('F', 'FEMALE') THEN 'Female'
 		 WHEN UPPER(TRIM(gen)) IN ('M', 'MALE') THEN 'Male'
 		 Else 'n/a'
 	END AS gen
@@ -179,6 +187,10 @@ BEGIN
 	SET @end_time = GETDATE();
 	PRINT '>> Load Duration: ' + cast(DateDiff(Second, @start_time, @end_time) as nvarchar) + ' seconds';
 	PRINT '--------------------------';
+
+	PRINT '-------------------------------------------';
+	PRINT 'Loading ERP Tables';
+	PRINT '-------------------------------------------';
 
 	--Loading erp-loc_a101
 	SET @start_time = GETDATE();
@@ -239,4 +251,3 @@ BEGIN
 		Print '=========================================='
 	END CATCH
 END
-
