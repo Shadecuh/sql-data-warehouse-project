@@ -1,0 +1,559 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Page-1" id="T5vJW5FrsU3-SbDH95qt">
+    <mxGraphModel dx="1678" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-66" value="gold.dim_customers&#xa;Stores customer details enriched with demographics and geographical data" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;strokeColor=default;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="10" width="590" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-67" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-66">
+          <mxGeometry y="30" width="590" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-68" value="&lt;font&gt;customer_key&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-67">
+          <mxGeometry width="60" height="43" as="geometry">
+            <mxRectangle width="60" height="43" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-69" value="INT" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-67">
+          <mxGeometry x="60" width="60" height="43" as="geometry">
+            <mxRectangle width="60" height="43" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-70" value="Surrogate key unuiquely identifying each customer record in the dimension table" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=13;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-67">
+          <mxGeometry x="120" width="470" height="43" as="geometry">
+            <mxRectangle width="470" height="43" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-71" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-66">
+          <mxGeometry y="73" width="590" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-72" value="&lt;span&gt;customer_id&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-71">
+          <mxGeometry width="60" height="43" as="geometry">
+            <mxRectangle width="60" height="43" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-73" value="INT" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-71">
+          <mxGeometry x="60" width="60" height="43" as="geometry">
+            <mxRectangle width="60" height="43" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-74" value="Unique numerical identifier assigned to each customer." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=13;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-71">
+          <mxGeometry x="120" width="470" height="43" as="geometry">
+            <mxRectangle width="470" height="43" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-90" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-66">
+          <mxGeometry y="116" width="590" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-91" value="customer_number" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-90">
+          <mxGeometry width="60" height="43" as="geometry">
+            <mxRectangle width="60" height="43" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-92" value="nvcarchar(50)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-90">
+          <mxGeometry x="60" width="60" height="43" as="geometry">
+            <mxRectangle width="60" height="43" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-93" value="Alphanumeric identifier representing the customer, used for tracking and rteferencing" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=13;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-90">
+          <mxGeometry x="120" width="470" height="43" as="geometry">
+            <mxRectangle width="470" height="43" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-94" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-66">
+          <mxGeometry y="159" width="590" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-95" value="first_name" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-94">
+          <mxGeometry width="60" height="43" as="geometry">
+            <mxRectangle width="60" height="43" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-96" value="nvcarchar(50)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-94">
+          <mxGeometry x="60" width="60" height="43" as="geometry">
+            <mxRectangle width="60" height="43" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-97" value="The customer&#39;s first name, as recorded in the system" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=13;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-94">
+          <mxGeometry x="120" width="470" height="43" as="geometry">
+            <mxRectangle width="470" height="43" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-98" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-66">
+          <mxGeometry y="202" width="590" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-99" value="last_name" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-98">
+          <mxGeometry width="60" height="43" as="geometry">
+            <mxRectangle width="60" height="43" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-100" value="nvcarchar(50)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-98">
+          <mxGeometry x="60" width="60" height="43" as="geometry">
+            <mxRectangle width="60" height="43" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-101" value="The customer&#39;s last name or family name" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=13;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-98">
+          <mxGeometry x="120" width="470" height="43" as="geometry">
+            <mxRectangle width="470" height="43" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-102" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-66">
+          <mxGeometry y="245" width="590" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-103" value="country" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-102">
+          <mxGeometry width="60" height="43" as="geometry">
+            <mxRectangle width="60" height="43" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-104" value="nvcarchar(50)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-102">
+          <mxGeometry x="60" width="60" height="43" as="geometry">
+            <mxRectangle width="60" height="43" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-105" value="The country of residence of the customer" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=13;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-102">
+          <mxGeometry x="120" width="470" height="43" as="geometry">
+            <mxRectangle width="470" height="43" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-106" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-66">
+          <mxGeometry y="288" width="590" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-107" value="marital_status" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-106">
+          <mxGeometry width="60" height="43" as="geometry">
+            <mxRectangle width="60" height="43" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-108" value="nvcarchar(50)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-106">
+          <mxGeometry x="60" width="60" height="43" as="geometry">
+            <mxRectangle width="60" height="43" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-109" value="The marital status of the customer" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=13;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-106">
+          <mxGeometry x="120" width="470" height="43" as="geometry">
+            <mxRectangle width="470" height="43" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-110" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-66">
+          <mxGeometry y="331" width="590" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-111" value="gender" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-110">
+          <mxGeometry width="60" height="43" as="geometry">
+            <mxRectangle width="60" height="43" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-112" value="nvcarchar(50)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-110">
+          <mxGeometry x="60" width="60" height="43" as="geometry">
+            <mxRectangle width="60" height="43" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-113" value="The gender of the customer" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=13;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-110">
+          <mxGeometry x="120" width="470" height="43" as="geometry">
+            <mxRectangle width="470" height="43" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-114" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-66">
+          <mxGeometry y="374" width="590" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-115" value="birthdate" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-114">
+          <mxGeometry width="60" height="43" as="geometry">
+            <mxRectangle width="60" height="43" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-116" value="DATE" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-114">
+          <mxGeometry x="60" width="60" height="43" as="geometry">
+            <mxRectangle width="60" height="43" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-117" value="The date of birth of the customer, formatted as YYYY-MM-DD" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=13;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-114">
+          <mxGeometry x="120" width="470" height="43" as="geometry">
+            <mxRectangle width="470" height="43" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-118" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-66">
+          <mxGeometry y="417" width="590" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-119" value="create_date" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-118">
+          <mxGeometry width="60" height="43" as="geometry">
+            <mxRectangle width="60" height="43" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-120" value="DATE" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-118">
+          <mxGeometry x="60" width="60" height="43" as="geometry">
+            <mxRectangle width="60" height="43" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-121" value="The date and time when the customer record was created in the system" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=13;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-118">
+          <mxGeometry x="120" width="470" height="43" as="geometry">
+            <mxRectangle width="470" height="43" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-163" value="gold.dim_products&#xa;Provides information about the products and their attributes" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;strokeColor=default;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="80" y="500" width="590" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-164" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-163">
+          <mxGeometry y="30" width="590" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-165" value="&lt;font&gt;product_key&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-164">
+          <mxGeometry width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-166" value="INT" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-164">
+          <mxGeometry x="60" width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-167" value="Surrogate key unuiquely identifying each product record in the product dimension table" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=13;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-164">
+          <mxGeometry x="120" width="470" height="40" as="geometry">
+            <mxRectangle width="470" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-168" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-163">
+          <mxGeometry y="70" width="590" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-169" value="&lt;span&gt;product_id&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-168">
+          <mxGeometry width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-170" value="INT" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-168">
+          <mxGeometry x="60" width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-171" value="Unique identifier assigned to the product for internal tracking and referencing." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=13;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-168">
+          <mxGeometry x="120" width="470" height="40" as="geometry">
+            <mxRectangle width="470" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-172" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-163">
+          <mxGeometry y="110" width="590" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-173" value="product_number" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-172">
+          <mxGeometry width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-174" value="INT" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-172">
+          <mxGeometry x="60" width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-175" value="A structured alphanumeric code representing the product, often used for categorization or inventory." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=13;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-172">
+          <mxGeometry x="120" width="470" height="40" as="geometry">
+            <mxRectangle width="470" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-176" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-163">
+          <mxGeometry y="150" width="590" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-177" value="product_name" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-176">
+          <mxGeometry width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-178" value="nvcarchar(50)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-176">
+          <mxGeometry x="60" width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-179" value="Descriptive name of the product, including key details such as type, color, and size" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=13;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-176">
+          <mxGeometry x="120" width="470" height="40" as="geometry">
+            <mxRectangle width="470" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-180" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-163">
+          <mxGeometry y="190" width="590" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-181" value="category_id" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-180">
+          <mxGeometry width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-182" value="nvcarchar(50)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-180">
+          <mxGeometry x="60" width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-183" value="A unique identifier for the product&#39;s category, linking to its high-level classification" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=13;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-180">
+          <mxGeometry x="120" width="470" height="40" as="geometry">
+            <mxRectangle width="470" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-184" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-163">
+          <mxGeometry y="230" width="590" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-185" value="category" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-184">
+          <mxGeometry width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-186" value="nvcarchar(50)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-184">
+          <mxGeometry x="60" width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-187" value="The broader classification of the product to group related things" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=13;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-184">
+          <mxGeometry x="120" width="470" height="40" as="geometry">
+            <mxRectangle width="470" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-188" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-163">
+          <mxGeometry y="270" width="590" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-189" value="subcategory" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-188">
+          <mxGeometry width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-190" value="nvcarchar(50)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-188">
+          <mxGeometry x="60" width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-191" value="A more detailed classifcation of the product within the category such as product type" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=13;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-188">
+          <mxGeometry x="120" width="470" height="40" as="geometry">
+            <mxRectangle width="470" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-192" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-163">
+          <mxGeometry y="310" width="590" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-193" value="maintenance_required" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-192">
+          <mxGeometry width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-194" value="nvcarchar(50)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-192">
+          <mxGeometry x="60" width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-195" value="Indicates whether the product requires maintenance" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=13;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-192">
+          <mxGeometry x="120" width="470" height="40" as="geometry">
+            <mxRectangle width="470" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-196" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-163">
+          <mxGeometry y="350" width="590" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-197" value="cost" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-196">
+          <mxGeometry width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-198" value="INT" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-196">
+          <mxGeometry x="60" width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-199" value="The cost or base price of the product, measured in monetary units" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=13;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-196">
+          <mxGeometry x="120" width="470" height="40" as="geometry">
+            <mxRectangle width="470" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-200" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-163">
+          <mxGeometry y="390" width="590" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-201" value="product_line" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-200">
+          <mxGeometry width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-202" value="nvcarchar(50)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-200">
+          <mxGeometry x="60" width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-203" value="The specific product line or series to which the product belongs&amp;nbsp;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=13;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-200">
+          <mxGeometry x="120" width="470" height="40" as="geometry">
+            <mxRectangle width="470" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-205" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-163">
+          <mxGeometry y="430" width="590" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-206" value="start_date" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-205">
+          <mxGeometry width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-207" value="DATE" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-205">
+          <mxGeometry x="60" width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-208" value="The date when the product became available for sale or use. stored in" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=13;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-205">
+          <mxGeometry x="120" width="470" height="40" as="geometry">
+            <mxRectangle width="470" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-209" value="gold.fact_sales&#xa;Stores the transactional sales data for analytical purposes" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;strokeColor=default;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="700" y="315" width="590" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-210" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-209">
+          <mxGeometry y="30" width="590" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-211" value="order_numer" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-210">
+          <mxGeometry width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-212" value="NVARCHAR(50)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-210">
+          <mxGeometry x="60" width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-213" value="A unique alphanumeric identifier for each sales order" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=13;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-210">
+          <mxGeometry x="120" width="470" height="40" as="geometry">
+            <mxRectangle width="470" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-214" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-209">
+          <mxGeometry y="70" width="590" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-215" value="&lt;span&gt;product_key&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-214">
+          <mxGeometry width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-216" value="INT" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-214">
+          <mxGeometry x="60" width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-217" value="Surrogate key linking the order to the product dimension&amp;nbsp;table&amp;nbsp;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=13;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-214">
+          <mxGeometry x="120" width="470" height="40" as="geometry">
+            <mxRectangle width="470" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-218" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-209">
+          <mxGeometry y="110" width="590" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-219" value="customer_key" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-218">
+          <mxGeometry width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-220" value="INT" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-218">
+          <mxGeometry x="60" width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-221" value="Surrogate key linking the order to the customer dimension table" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=13;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-218">
+          <mxGeometry x="120" width="470" height="40" as="geometry">
+            <mxRectangle width="470" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-222" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-209">
+          <mxGeometry y="150" width="590" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-223" value="order_date" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-222">
+          <mxGeometry width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-224" value="DATE" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-222">
+          <mxGeometry x="60" width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-225" value="The date when the order was placed" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=13;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-222">
+          <mxGeometry x="120" width="470" height="40" as="geometry">
+            <mxRectangle width="470" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-226" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-209">
+          <mxGeometry y="190" width="590" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-227" value="shipping_date" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-226">
+          <mxGeometry width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-228" value="DATE" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-226">
+          <mxGeometry x="60" width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-229" value="The date when the roder was shipped to the customer" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=13;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-226">
+          <mxGeometry x="120" width="470" height="40" as="geometry">
+            <mxRectangle width="470" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-230" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-209">
+          <mxGeometry y="230" width="590" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-231" value="due_date" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-230">
+          <mxGeometry width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-232" value="DATE" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-230">
+          <mxGeometry x="60" width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-233" value="THe date when the order payment was due" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=13;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-230">
+          <mxGeometry x="120" width="470" height="40" as="geometry">
+            <mxRectangle width="470" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-234" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-209">
+          <mxGeometry y="270" width="590" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-235" value="sales_amount" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-234">
+          <mxGeometry width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-236" value="INT" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-234">
+          <mxGeometry x="60" width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-237" value="The total monetary value of the sale for the line item, in whole currency units" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=13;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-234">
+          <mxGeometry x="120" width="470" height="40" as="geometry">
+            <mxRectangle width="470" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-238" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-209">
+          <mxGeometry y="310" width="590" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-239" value="quantity" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-238">
+          <mxGeometry width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-240" value="INT" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-238">
+          <mxGeometry x="60" width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-241" value="The number of units of the product ordered for the line item" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=13;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-238">
+          <mxGeometry x="120" width="470" height="40" as="geometry">
+            <mxRectangle width="470" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-242" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-209">
+          <mxGeometry y="350" width="590" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-243" value="price" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=9;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-242">
+          <mxGeometry width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-244" value="INT" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=10;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-242">
+          <mxGeometry x="60" width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYl_Ft-d4Hf8MQ7R5TR7-245" value="The price per unit of the product for the line item, in whole currency units" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=13;" vertex="1" parent="TYl_Ft-d4Hf8MQ7R5TR7-242">
+          <mxGeometry x="120" width="470" height="40" as="geometry">
+            <mxRectangle width="470" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
